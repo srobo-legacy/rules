@@ -210,7 +210,10 @@ Unless specified otherwise, all markers described in this document are oriented 
   \end{tabular}
 \end{center}
 
-\item Tokens will initially be positioned to the left and right of the robot as shown in figure~\ref{fig:token-position}.
+\item The tokens are arranged in order based on the next nearest zone to the token position.
+      For example, the tokens to the left of Corner 0 (ie, along the North wall), would be for Corners 0, 1, 3, 2.
+      Those to the right of Corner 0 (ie, along the West wall) would be ordered 0, 3, 1, 2.
+      This is shown in figure~\ref{fig:arena-dim}.
 
 \begin{figure}
   \centering
